@@ -1,0 +1,100 @@
+
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>محمد عبده ملهي — أمن سيبراني</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div class="brand">
+        <h1>محمد عبده ملهي</h1>
+        <p class="role">طالب/باحث في أمن السبراني</p>
+      </div>
+      <nav class="nav">
+        <a href="#about">عنّي</a>
+        <a href="#projects">مشاريع</a>
+        <a href="#resume">السيرة</a>
+        <a href="#contact">اتصل</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>أمن السبراني — حماية الأنظمة والبيانات</h2>
+        <p class="hero-sub">تصميم حلول أمنيّة، اختبارات اختراق، وتقييم المخاطر.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#contact">تواصل معي</a>
+          <a class="btn outline" href="#resume">تحميل السيرة</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h3>من أنا</h3>
+      <p>اسمي <strong>محمد عبده ملهي</strong>. طالِب في مجال أمن السبراني، متحمّس لتصميم حلول لحماية الشبكات والتطبيقات. أعمل على مشاريع عملية لاختبار الاختراق وتحليل الثغرات وتطبيق ضوابط الأمان.</p>
+      <ul class="info-list">
+        <li>الهاتف: <a href="tel:+967771516271">+967 77 151 6271</a></li>
+        <li>البريد الإلكتروني: <a href="mailto:bdh540608@gmail.com">bdh540608@gmail.com</a></li>
+        <li>الموقع: اليمن</li>
+        <li>البكالوريوس: الوطنية (ذكرتها في السيرة)</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="container projects">
+      <h3>مشاريع واختبارات</h3>
+      <div class="cards">
+        <div class="card">
+          <h4>اختبار اختراق تطبيق ويب</h4>
+          <p>تفاصيل: فحص نقاط الدخول والتحقق من XSS وSQL Injection وتقديم تقرير إصلاح شامل.</p>
+        </div>
+        <div class="card">
+          <h4>تقييم شبكات</h4>
+          <p>تفاصيل: فحوصات تكوين الراوتر، قواعد الجدار الناري، وتحليل حركة الشبكة.</p>
+        </div>
+        <div class="card">
+          <h4>أدوات أتمتة أمان</h4>
+          <p>تفاصيل: سكربتات لأرشفة نتائج الفحص وتبسيط عملية التحقق الدوري.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="container resume">
+      <h3>السيرة الذاتية (اختصار)</h3>
+      <p><strong>محمد عبده ملهي</strong> — طالب أمن سبراني. حاصل على بكالوريوس من الوطنية. مهارات: اختبار اختراق، تقييم مخاطر، تحليل برمجيات خبيثة، كتابة تقارير تقنية.</p>
+      <a class="btn" href="resume_arabic.txt" download>تحميل السيرة التفصيلية</a>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>تواصل معي</h3>
+      <p>الهاتف: <a href="tel:+967771516271">+967 77 151 6271</a></p>
+      <p>البريد: <a href="mailto:bdh540608@gmail.com">bdh540608@gmail.com</a></p>
+      <p>GitHub: <a id="github-link" href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">https://github.com/YOUR-USERNAME</a></p>
+      <form id="contact-form">
+        <label>البريد الإلكتروني (اختياري)
+          <input type="email" name="email" placeholder="name@example.com" />
+        </label>
+        <label>الرسالة
+          <textarea name="message" placeholder="اكتب رسالتك..." required></textarea>
+        </label>
+        <button type="submit" class="btn">أرسل</button>
+      </form>
+      <p class="note">ملاحظة: هذا نموذج ثابت — لإرساله فعليًا انتقل إلى مزوّد استضافة أو استخدم GitHub Actions / Formspree.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>© <span id="year"></span> محمد عبده ملهي</div>
+      <div>تصميم احترافي — أسود وذهبي</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
